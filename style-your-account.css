@@ -1,0 +1,114 @@
+body{
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.menuKonum {
+    /* width: 95%; */
+    position: relative;
+    left: -5px;
+    top: -25px;
+}
+
+.accountIcon {
+    width: 25px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+.menuSize {
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.menuSize:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+.linkWrapper{
+    padding-left: 12%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.linkWrapper2{
+    padding-left: 14%;
+    padding-bottom: 2%;
+}
+
+.footerList{
+    color: gray;
+    font-size: medium;
+}
+
+.btn{
+    border: 1px solid gray;
+    color: gray;
+ }
+
+ .btn:hover{
+    border: 1px solid gray;
+    color: gray;
+ }
+
+ .linkWrapper3{
+    margin-left: 14%;
+    margin-bottom:3% ;
+    font-size: medium;
+    color: gray;
+}
+
+.point{
+    cursor: pointer;
+}
+
+.genelKonum{
+    padding-left: 10%;
+}
+
+.cizgi{
+    width: 85%;
+}
+
+.buton:hover{
+    background-color: rgba(128, 128, 128, 0.473);
+    transition: .2s;
+}
+
+.yaziBoyutu{
+    font-size: medium;
+    color: blue;
+    cursor: pointer;
+}
+.mobilType{
+    text-align:end ;
+}
+/* @media screen and (max-width:770px) {
+    .mobilType{
+        text-align: left;
+        margin-top: 5px;
+    }
+}*/
+
+@media screen and (max-width:992px) {
+    .mediaSize{
+        display: none;
+    }
+    .menuKonum2{
+        justify-content:center;
+        display: flex;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        justify-content: center;
+}
+} 

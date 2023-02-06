@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.menuKonum {
+    /* width: 95%; */
+    position: relative;
+    top: -25px;
+}
+
+
+.menuSize {
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.menuSize:hover{
+    text-decoration: none;
+}
+
+.accountIcon {
+    width: 25px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+label {
+    font: bold 1.2em Helvetica;
+    margin-left: -.125em;
+    padding: 11px 20px 11px 20px;
+    transition: .25s;
+    color: #fff;
+    text-shadow: 2px 2px 2px #666;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #000000;
+    border: 1px solid white;
+    color: black;
+    display: inline-block;
+    font: 1.2em Helvetica;
+    margin-right: -.25em;
+    outline: 0;
+    opacity: 0;
+    padding: 10px;
+    transition: .55s;
+    -webkit-transition: .55s;
+    -moz-transition: .55s;
+    -ms-transition: .55s;
+    -o-transition: .55s;
+    width: 0;
+}
+
+input:hover {
+    background-color: #000000;
+    opacity: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 11em;
+    border-radius: 5px 0 0 5px;
+}
+
+.linkWrapper{
+    padding-left: 12%;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.linkWrapper2{
+    padding-left: 14%;
+    padding-bottom: 2%;
+}
+
+.footerList{
+    color: gray;
+    font-size: medium;
+}
+
+.btn{
+    border: 1px solid gray;
+    color: gray;
+ }
+
+ .btn:hover{
+    border: 1px solid white;
+    color: white;
+ }
+
+ .linkWrapper3{
+    margin-left: 14%;
+    margin-bottom:3% ;
+    font-size: medium;
+    color: gray;
+}
+
+.point{
+    cursor: pointer;
+}
+
+@media screen and (max-width:990px) {
+    .filmLogo{
+        width: 100%;
+        margin-bottom:20px ;
+    }
+    .screen{
+        display: none;
+    }
+
+    .navbar .container{
+        justify-content:left
+    }
+}

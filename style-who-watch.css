@@ -1,0 +1,47 @@
+body{
+    background-color: #141414 ;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.browse{
+    height: 100vh;
+}
+
+.icon{
+    border-radius: 25px;
+    max-width: 175px;
+}
+
+.renk{
+    color: gray;
+    font-size: x-large;
+}
+
+ .icon:hover{
+    color: white;
+ }
+
+ .btn{
+    border: 1px solid gray;
+    color: gray;
+ }
+
+ .btn:hover{
+    border: 1px solid white;
+    color: white;
+ }
+
+ .iconWrapper{
+    border:3px solid rgba(255, 255, 255, 0) ;
+    border-radius: 10px;
+ }
+
+ .iconWrapper:hover{
+    border:3px solid white ;
+    border-radius: 10px;
+ }
