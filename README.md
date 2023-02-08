@@ -1,5 +1,5 @@
 # Netflix
-HTML ve Css kullanarak Netflix klon tasarımı.
+HTML, Css ve Bootstrap kullanarak Netflix klon tasarımı.
 ![netf1](https://user-images.githubusercontent.com/116227509/216902748-e1146bd5-4bad-46c2-9846-5be8154ef597.png)
 login ekranında Kullanıcı adı ve Şifre kısmına "berkay" girerek butona tıklamak bir sonraki sayfaya yönlendirir.
 ![netf2](https://user-images.githubusercontent.com/116227509/216902997-0d1769e6-f770-4cae-b232-9069894957d3.png)
